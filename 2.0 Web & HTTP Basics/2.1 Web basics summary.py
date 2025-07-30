@@ -1,8 +1,4 @@
-"""Sure! Here's a **short summary** of what we’ve covered so far in **🟦 Phase 2: Web & HTTP Basics** — before jumping into `requests`:
-
----
-
-## 📘 Phase 2 Summary (Before `requests`)
+"""
 
 ### 🔹 1. **What is an API**
 
