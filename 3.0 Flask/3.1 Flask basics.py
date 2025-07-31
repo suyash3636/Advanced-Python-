@@ -1,10 +1,12 @@
 from flask import Flask
 
-app = Flask(__name__)  # create Flask app instance
+app = Flask(__name__)
 
-@app.route("/")  # define route for homepage
+@app.route('/')
 def home():
-    return "Hello, Flask!"
-
-if __name__ == "__main__":
+    return "Welcome to the Flask Basics!"
+@app.route('/home')
+def home_alias():
+    return "Welcome to the /home of Flask Basics!"
+if __name__ == '__main__':
     app.run(debug=True)
