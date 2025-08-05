@@ -6,3 +6,5 @@ app.register_blueprint(news_bp)
 
 if __name__ == '__main__':
     app.run(debug=True)
+# /news
+# /news/article1
